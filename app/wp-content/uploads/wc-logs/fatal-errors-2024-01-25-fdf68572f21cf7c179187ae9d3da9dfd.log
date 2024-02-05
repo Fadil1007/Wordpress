@@ -1,0 +1,48 @@
+2024-01-25T12:27:41+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\header.php:107
+Stack trace:
+#0 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template.php(725): load_template('C:\\Users\\assan\\...', true, Array)
+#2 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\front-page.php(12): get_header()
+#4 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\assan\\...')
+#5 C:\Users\assan\Local Sites\monsite\app\public\wp-blog-header.php(19): require_once('C:\\Users\\assan\\...')
+#6 C:\Users\assan\Local Sites\monsite\app\public\index.php(17): require('C:\\Users\\assan\\...')
+#7 {main}
+  thrown in C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\header.php on line 107
+
+2024-01-25T12:33:25+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\header.php:107
+Stack trace:
+#0 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template.php(725): load_template('C:\\Users\\assan\\...', true, Array)
+#2 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\front-page.php(12): get_header()
+#4 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\assan\\...')
+#5 C:\Users\assan\Local Sites\monsite\app\public\wp-blog-header.php(19): require_once('C:\\Users\\assan\\...')
+#6 C:\Users\assan\Local Sites\monsite\app\public\index.php(17): require('C:\\Users\\assan\\...')
+#7 {main}
+  thrown in C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\header.php on line 107
+
+2024-01-25T12:36:34+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(222): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1934): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1029): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\assan\Local Sites\monsite\app\public\wp-admin\admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown in C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
+
+2024-01-25T12:36:52+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(222): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1934): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1029): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\assan\Local Sites\monsite\app\public\wp-admin\admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown in C:\Users\assan\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
+

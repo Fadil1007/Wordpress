@@ -1,0 +1,24 @@
+2024-02-05T15:40:16+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\header.php:107
+Stack trace:
+#0 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template.php(725): load_template('C:\\Users\\assan\\...', true, Array)
+#2 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\front-page.php(12): get_header()
+#4 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\assan\\...')
+#5 C:\Users\assan\Local Sites\monsite\app\public\wp-blog-header.php(19): require_once('C:\\Users\\assan\\...')
+#6 C:\Users\assan\Local Sites\monsite\app\public\index.php(17): require('C:\\Users\\assan\\...')
+#7 {main}
+  thrown in C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\header.php on line 107
+
+2024-02-05T15:41:33+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\header.php:107
+Stack trace:
+#0 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template.php(725): load_template('C:\\Users\\assan\\...', true, Array)
+#2 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\front-page.php(12): get_header()
+#4 C:\Users\assan\Local Sites\monsite\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\assan\\...')
+#5 C:\Users\assan\Local Sites\monsite\app\public\wp-blog-header.php(19): require_once('C:\\Users\\assan\\...')
+#6 C:\Users\assan\Local Sites\monsite\app\public\index.php(17): require('C:\\Users\\assan\\...')
+#7 {main}
+  thrown in C:\Users\assan\Local Sites\monsite\app\public\wp-content\themes\flower-shop-lite\header.php on line 107
+
